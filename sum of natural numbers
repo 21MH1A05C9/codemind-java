@@ -1,0 +1,15 @@
+import java.util.*;
+class print
+{
+    public static void main(String args[])
+    {
+        Scanner sc=new Scanner(System.in);
+        int i,l,sum=0;
+        l=sc.nextInt();
+        for(i=0;i<=l;i++)
+        {
+            sum+=i;
+        }
+        System.out.print(sum);
+    }
+}
